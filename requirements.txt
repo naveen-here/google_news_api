@@ -1,0 +1,20 @@
+# Core Libraries
+serpapi              # For extracting news using SerpAPI
+mysql-connector-python  # For connecting to MySQL database
+pandas                 # For data manipulation
+
+# Retrieval System
+faiss-cpu           # For FAISS index creation (CPU version)
+scikit-learn            # For vectorization (TF-IDF or other embeddings)
+
+# Language Model
+transformers         # For Mistral LLM and integration with Hugging Face
+            # For PyTorch backend (required by Mistral LLM)
+
+# Environment and Configuration
+python-dotenv          # For managing environment variables (.env file)
+
+# Logging and Utilities
+loguru                 # For enhanced logging
+tqdm                   # For progress bars
+protobuf
